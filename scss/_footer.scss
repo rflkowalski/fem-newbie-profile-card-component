@@ -1,0 +1,9 @@
+.footer {
+    padding: 1.875rem 3.125rem;
+    border-top: 1px solid $darkGrayishBlue;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

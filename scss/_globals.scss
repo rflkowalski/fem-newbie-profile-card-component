@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: $darkCyan;
+    background-image: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1,
+h2 {
+    margin-top: 1.25rem;
+    font-size: $fontSize-400;
+    font-weight: $fontWeight-500;
+}
+
+p {
+    font-size: $fontSize-300;
+    font-weight: $fontWeight-400;
+    color: $darkGray;
+}

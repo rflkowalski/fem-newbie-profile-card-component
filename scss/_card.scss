@@ -1,0 +1,26 @@
+.card {
+    max-width: 26.25rem;
+    background-color: $white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.content {
+    margin-bottom: 1.75rem;
+
+    &__img {
+        height: 6.25rem;
+        width: 6.25rem;
+        margin-top: -3.25rem;
+        border: 0.25rem solid $white;
+        border-radius: 50%;
+
+        display: inline-block;
+    }
+
+    &__age {
+        margin-left: 0.25rem;
+        font-weight: $fontWeight-400;
+        color: $darkGray;
+    }
+}

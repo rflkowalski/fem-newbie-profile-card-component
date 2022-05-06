@@ -1,8 +1,10 @@
 $darkCyan: hsl(185, 75%, 39%);
 $VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
-$darkGrayishBlue: hsl(227, 10%, 46%);
+$darkGrayishBlue: hsla(227, 10%, 46%, 0.2);
 $darkGray: hsl(0, 0%, 59%);
+$white: hsl(100, 100%, 100%);
 
+$fontSize-300: 0.8125rem; /* 13px */
 $fontSize-400: 1.125rem; /* 18px */ /* base */
 
 $fontWeight-400: 500; /* base */
