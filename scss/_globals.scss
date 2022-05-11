@@ -6,6 +6,10 @@ body {
     background-image: url('../img/bg-pattern-top.svg'), url('../img/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
     background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+
+    @media (max-width: $mobile) {
+        background-position: right 34vw bottom 42vh, left 35vw top 40vh;
+    }
 }
 
 .main {
